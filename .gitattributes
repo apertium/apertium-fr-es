@@ -15,6 +15,7 @@
 /apertium-fr-es.fr-es.t2x -text
 /apertium-fr-es.fr-es.t3x -text
 /apertium-fr-es.fr.dix -text
+/apertium-fr-es.fr.metadix -text
 /apertium-fr-es.fr.tsx -text
 /apertium-fr-es.post-es.dix -text
 /apertium-fr-es.post-fr.dix -text
