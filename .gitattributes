@@ -26,9 +26,9 @@
 /es-fr-unsupervised.make -text
 /es-fr.prob -text svneol=unset#unset
 es-tagger-data/README -text
-/fr-ca.prob -text
 /fr-es-supervised.make -text
 /fr-es-unsupervised.make -text
+/fr-es.prob -text
 fr-tagger-data/README -text
 /modes.xml -text
 /principal.xsl -text
