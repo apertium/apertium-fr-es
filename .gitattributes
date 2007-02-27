@@ -31,3 +31,4 @@ es-tagger-data/README -text
 fr-tagger-data/README -text
 /modes.xml -text
 /principal.xsl -text
+/translate-to-default-equivalent.xsl -text
