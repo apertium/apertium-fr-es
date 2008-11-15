@@ -10,12 +10,14 @@
 /apertium-fr-es.es-fr.t1x -text
 /apertium-fr-es.es-fr.t2x -text
 /apertium-fr-es.es-fr.t3x -text
+/apertium-fr-es.es.acx -text
 /apertium-fr-es.es.dix -text
 /apertium-fr-es.es.tsx -text
 /apertium-fr-es.fr-es.dix -text
 /apertium-fr-es.fr-es.t1x -text
 /apertium-fr-es.fr-es.t2x -text
 /apertium-fr-es.fr-es.t3x -text
+/apertium-fr-es.fr.acx -text
 /apertium-fr-es.fr.metadix -text
 /apertium-fr-es.fr.tsx -text
 /apertium-fr-es.post-es.dix -text
