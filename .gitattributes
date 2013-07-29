@@ -2,6 +2,8 @@
 /AUTHORS -text
 /COPYING -text
 /ChangeLog -text
+/Europarl3.biltrans-enrtries.fr-es -text
+/Europarl3.ngrams.fr-es.lrx -text
 /Makefile.am -text
 /NEWS -text
 /README -text
