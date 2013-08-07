@@ -32,6 +32,9 @@
 /autogen.sh -text
 /buscaPar.xsl -text
 /configure.ac -text
+dev/Europarl3.biltrans-enrtries.fr-es -text
+dev/Europarl3.lex.fr-es -text
+dev/Europarl3.ngrams.fr-es.lrx -text
 dev/fixy.pl -text
 dev/inconsistency-summary.sh -text
 dev/inconsistency.sh -text
