@@ -159,6 +159,7 @@
     <e a="webform"><p><l>à<b/>ciel<b/>ouvert<s n="adv"/></l><r>a<b/>cielo<b/>abierto<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>à<b/>condition<b/>que<s n="cnjadv"/></l><r>siempre<b/>y<b/>cuando<s n="cnjadv"/></r></p></e>
     <e r="RL" a="prompsit"><p><l>à<b/>condition<b/>que<s n="cnjadv"/></l><r>siempre<b/>que<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>à<b/>coté<s n="adv"/></l>         <r>cerca<s n="adv"/></r></p></e>
     <e r="LR" a="webform"><p><l>à<b/>côté<s n="adv"/></l><r>cerca<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>à<b/>coups<b/>de<s n="pr"/></l><r>a<b/>golpes<b/>de<s n="pr"/></r></p></e>
     <e a="webform"><p><l>à<b/>court<b/>terme<s n="adv"/></l><r>a<b/>corto<b/>plazo<s n="adv"/></r></p></e>
@@ -7282,6 +7283,7 @@
     <e a="eleka"><p><l>Cotado<s n="np"/></l>          <r>Cotado<s n="np"/></r></p></e>
     <e a="eleka"><p><l>cote<s n="n"/></l>             <r>cota<s n="n"/></r></p></e>
     <e>       <p><l>côte<s n="n"/></l>                <r>costa<s n="n"/></r></p></e>
+    <e r="LR"><p><l>coté<s n="n"/></l>                <r>lado<s n="n"/></r></p></e>
     <e r="RL" a="eleka"><p><l>côte<s n="n"/><s n="f"/></l><r>chuletón<s n="n"/><s n="m"/></r></p></e>
     <e r="RL"><p><l>côte<s n="n"/></l>                <r>cuesta<s n="n"/></r></p></e>
     <e r="RL"><p><l>côte<s n="n"/></l>                <r>orilla<s n="n"/></r></p></e>
@@ -9272,8 +9274,10 @@
     <e a="eleka"><p><l>dumping<s n="n"/></l>          <r>dumping<s n="n"/></r></p></e>
     <e r="RL" a="prompsit"><p><l>d'un<b/>bout<b/>à<b/>l'autre<s n="adv"/></l><r>de<b/>principio<b/>a<b/>fin<s n="adv"/></r></p></e>
     <e r="LR" a="eleka"><p><l>d'un<b/>commun<b/>accord<s n="adv"/></l><r>de<b/>mutuo<b/>acuerdo<s n="adv"/></r></p></e>
+    <e r="LR"><p><l>d'un<b/>coté<s n="cnjadv"/></l>   <r>por<b/>una<b/>parte<s n="cnjadv"/></r></p></e>
     <e a="webform"><p><l>d'un<b/>côté<s n="cnjadv"/></l><r>por<b/>una<b/>parte<s n="cnjadv"/></r></p></e>
     <e r="RL" a="webform"><p><l>d'un<b/>côté<s n="cnjadv"/></l><r>por<b/>un<b/>lado<s n="cnjadv"/></r></p></e>
+    <e r="LR"><p><l>d'un<b/>coté<b/>à<b/>l'autre<s n="adv"/></l><r>de<b/>un<b/>lado<b/>a<b/>otro<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>d'un<b/>côté<b/>à<b/>l'autre<s n="adv"/></l><r>de<b/>un<b/>lado<b/>a<b/>otro<s n="adv"/></r></p></e>
     <e a="prompsit"><p><l>d'un<b/>moment<b/>à<b/>l'autre<s n="adv"/></l><r>de<b/>un<b/>momento<b/>a<b/>otro<s n="adv"/></r></p></e>
     <e r="LR" a="eleka"><p><l>d'une<b/>communauté<b/>autonome<s n="adj"/><s n="mf"/><s n="sp"/></l><r>autonómico<s n="adj"/><s n="GD"/><s n="ND"/></r></p></e>
@@ -12611,11 +12615,11 @@
     <e a="webform"><p><l>gratuité<s n="n"/></l>       <r>gratuidad<s n="n"/></r></p></e>
     <e a="webform"><p><l>gratuitement<s n="adv"/></l> <r>gratuitamente<s n="adv"/></r></p></e>
     <e>       <p><l>Grau<s n="np"/></l>               <r>Grau<s n="np"/></r></p></e>
-    <e a="webform"><p><l>gravat<s n="n"/></l>         <r>escombro<s n="n"/></r></p></e>
-    <e r="RL" a="webform"><p><l>gravat<s n="n"/></l>  <r>cascote<s n="n"/></r></p></e>
     <e a="phonem"><p><l>gravat<s n="n"/></l>          <r>escombro<s n="n"/></r></p></e>
     <e a="phonem" r="LR"><p><l>gravat<s n="n"/><s n="m"/><s n="pl"/></l><r>escombro<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e a="phonem" r="RL"><p><l>gravat<s n="n"/></l>   <r>cascote<s n="n"/></r></p></e>
+    <e a="webform"><p><l>gravat<s n="n"/></l>         <r>escombro<s n="n"/></r></p></e>
+    <e r="RL" a="webform"><p><l>gravat<s n="n"/></l>  <r>cascote<s n="n"/></r></p></e>
     <e r="LR" a="webform"><p><l>gravats<s n="n"/><s n="m"/><s n="pl"/></l><r>escombro<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
     <e>       <p><l>grave<s n="adj"/></l>             <r>grave<s n="adj"/></r></p></e>
     <e>       <p><l>gravement<s n="adv"/></l>         <r>gravemente<s n="adv"/></r></p></e>
@@ -26335,6 +26339,7 @@
     <e a="eleka"><p><l>vente<g><b/>en<b/>gros</g><s n="n"/></l><r>venta<g><b/>al<b/>por<b/>mayor</g><s n="n"/></r></p></e>
     <e a="eleka"><p><l>vent<g><b/>arrière</g><s n="n"/></l><r>viento<g><b/>de<b/>cola</g><s n="n"/></r></p></e>
     <e r="LR" a="eleka"><p><l>vent<g><b/>contre</g><s n="n"/></l><r>viento<g><b/>en<b/>contra</g><s n="n"/></r></p></e>
+    <e r="LR"><p><l>vent<g><b/>de<b/>coté</g><s n="n"/></l><r>viento<g><b/>cruzado</g><s n="n"/></r></p></e>
     <e a="eleka"><p><l>vent<g><b/>de<b/>côté</g><s n="n"/></l><r>viento<g><b/>cruzado</g><s n="n"/></r></p></e>
     <e a="eleka"><p><l>vent<g><b/>debout</g><s n="n"/></l><r>viento<g><b/>en<b/>contra</g><s n="n"/></r></p></e>
     <e a="webform"><p><l>vent<g><b/>de<b/>tempête</g><s n="n"/></l><r>vendaval<s n="n"/></r></p></e>

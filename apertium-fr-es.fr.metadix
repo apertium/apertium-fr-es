@@ -123,6 +123,7 @@
     </pardef>
     
 <!--     jamais utilisés
+
     <pardef n="det2loc__np">
       <e r="LR"><p><l/><r/></p></e>
       <e r="RL"><p><l><a/>le<b/></l><r/></p></e>
@@ -6207,8 +6208,8 @@
       <e><p><l>êtes</l>             <r>être<s n="vbser"/><s n="pri"/><s n="p2"/><s n="pl"/></r></p></e>
       <e><p><l>être</l>             <r>être<s n="vbser"/><s n="inf"/></r></p></e>
     </pardef>
-    
   <!--
+
     <pardef n="about/[]ir__vblex">
       <e><i>i</i><par n="abouti/r__vblex"/></e>
       <e><p><l>î</l>                <r>i</r></p><i><prm/></i><par n="aboutî/mes__vblex"/></e>
@@ -6248,6 +6249,7 @@
       <e><i>i</i><par n="lui/re__vblex"/></e>
       <e><p><l>î</l>                <r>i</r></p><i><prm/></i><par n="luî/mes__vblex"/></e>
     </pardef>
+-->
 
     <pardef n="maud/i[]re__vblex">
       <e><i>i</i><par n="maudi/re__vblex"/></e>
@@ -6258,7 +6260,6 @@
       <e><i>i</i><par n="ri/re__vblex"/></e>
       <e><p><l>î</l>                <r>i</r></p><i><prm/></i><par n="dî/mes__vblex"/></e>
     </pardef>
--->
 
     <pardef n="lu/i[]re__vblex">
       <e><p><l>î</l>                <r>i</r></p><i><prm/></i><par n="luî/mes__vblex"/></e>
@@ -14097,6 +14098,7 @@
     <e lm="efficacement" a="webform">       <i>efficacement</i><par n="hier__adv"/></e>
     <e lm="efficacité" a="eleka">           <i>efficacité</i><par n="abeille__n"/></e>
     <e lm="efficacité" a="webform">         <i>efficacité</i><par n="abeille__n"/></e>
+    <e lm="effondrement" a="phonem">        <i>effondrement</i><par n="livre__n"/></e>
     <e lm="effondrement" a="webform">       <i>effondrement</i><par n="livre__n"/></e>
     <e lm="effondrer" a="eleka">            <i>effondr</i><par n="abaiss/er__vblex"/></e>
     <e lm="efforcer" a="eleka">             <i>effor</i><par n="annon/cer__vblex"/></e>
@@ -14737,6 +14739,7 @@
     <e lm="équivaloir">                     <i>équiva</i><par n="va/loir__vblex"/></e>
     <e r="LR" lm="à cause que">             <i>à<b/>cause<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="à condition que">         <i>à<b/>condition<b/>que</i><par n="afin_que__cnjadv"/></e>
+    <e r="LR" lm="à coté">                  <i>à<b/>coté</i><par n="hier__adv"/></e>
     <e r="LR" lm="adjuger">                 <i>adjug</i><par n="allong/er__vblex"/></e>
     <e r="LR" lm="à la faveur de">          <i>à<b/>la<b/>faveur<b/>de</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="à mesure que">            <i>à<b/>mesure<b/>que</i><par n="afin_que__cnjadv"/></e>
@@ -14775,6 +14778,7 @@
     <e r="LR" lm="conseil des prud'hommes"> <i>conseil</i><par n="livre__n"/><p><l><b/>des<b/>prud'hommes</l><r><g><b/>des<b/>prud'hommes</g></r></p></e>
     <e r="LR" lm="conseil des prudhommes">  <i>conseil</i><par n="livre__n"/><p><l><b/>des<b/>prudhommes</l><r><g><b/>des<b/>prudhommes</g></r></p></e>
     <e r="LR" lm="contester en appel">      <i>contest</i><par n="abaiss/er__vblex"/><p><l><b/>en<b/>appel</l><r><g><b/>en<b/>appel</g></r></p></e>
+    <e r="LR" lm="coté">                    <i>coté</i><par n="livre__n"/></e>
     <e r="LR" lm="dans le temps que">       <i>dans<b/>le<b/>temps<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="d'aussi loin que">        <i>d'aussi<b/>loin<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="d'autant plus que">       <i>d'autant<b/>plus<b/>que</i><par n="afin_que__cnjadv"/></e>
@@ -14790,6 +14794,8 @@
     <e r="LR" lm="de telle sorte que">      <i>de<b/>telle<b/>sorte<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="d'ici que">               <i>d'ici<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="du fait que">             <i>du<b/>fait<b/>que</i><par n="afin_que__cnjadv"/></e>
+    <e r="LR" lm="d'un coté à l'autre">     <i>d'un<b/>coté<b/>à<b/>l'autre</i><par n="hier__adv"/></e>
+    <e r="LR" lm="d'un coté">               <i>d'un<b/>coté</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="du plus loin que">        <i>du<b/>plus<b/>loin<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="éblouir">                 <p><l>Eblou</l><r>éblou</r></p><par n="about/[]ir__vblex" prm=""/></e>
     <e r="LR" lm="éblouissant">             <p><l>Eblouissant</l><r>éblouissant</r></p><par n="abaissant__adj"/></e>
@@ -15048,6 +15054,7 @@
     <e r="LR" lm="survenir">                <i>surv</i><par n="appart/enir__vblex"/></e>
     <e r="LR" lm="tant que">                <i>tant<b/>que</i><par n="afin_que__cnjadv"/></e>
     <e r="LR" lm="tel que">                 <i>tel<b/>que</i><par n="afin_que__cnjadv"/></e>
+    <e r="LR" lm="vent de coté">            <i>vent</i><par n="livre__n"/><p><l><b/>de<b/>coté</l><r><g><b/>de<b/>coté</g></r></p></e>
     <e r="LR" lm="vorrouiller">             <i>verrouill</i><par n="abaiss/er__vblex"/></e>
     <e r="LR">                              <p><l>est-ce<b/>que</l><r>est-ce<b/>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR">                              <p><l>que</l><r>que<s n="prn"/><s n="itg"/><s n="mf"/><s n="sp"/></r></p></e>
@@ -15098,7 +15105,6 @@
     <e r="RL" lm="d'ici que">               <p><l>d'ici<b/><a/>que</l><r>d'ici<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e r="RL" lm="du fait que">             <p><l>du<b/>fait<b/><a/>que</l><r>du<b/>fait<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e r="RL" lm="du plus loin que">        <p><l>du<b/>plus<b/>loin<b/><a/>que</l><r>du<b/>plus<b/>loin<b/>que</r></p><par n="afin_que__cnjadv"/></e>
-    <e lm="effondrement" a="phonem">        <i>effondrement</i><par n="livre__n"/></e>
     <e r="RL" lm="en admettant que">        <p><l>en<b/>admettant<b/><a/>que</l><r>en<b/>admettant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e r="RL" lm="en attendant que">        <p><l>en<b/>attendant<b/><a/>que</l><r>en<b/>attendant<b/>que</r></p><par n="afin_que__cnjadv"/></e>
     <e r="RL" lm="en cas que">              <p><l>en<b/>cas<b/><a/>que</l><r>en<b/>cas<b/>que</r></p><par n="afin_que__cnjadv"/></e>
@@ -29172,7 +29178,7 @@
     <e lm="glisser d'" r="LR">              <i>gliss</i><par n="abaiss/er__vblex"/><p><l><b/>d'</l><r><g><b/>de</g></r></p></e>
     <e lm="j'" r="LR">                      <p><l>j'</l><r>je<s n="prn"/><s n="tn"/><s n="p1"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="jusqu'" r="LR">                  <p><l>jusqu'</l><r>jusque<s n="pr"/></r></p></e>
-<!-- <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
+<!--    <e lm="l'" r="LR"><p><l>l'</l><r>le<s n="detnt"/></r></p></e> -->
     <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="det"/><s n="def"/><s n="mf"/><s n="sg"/></r></p></e>
     <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="f"/><s n="sg"/></r></p></e>
     <e lm="l'" r="LR">                      <p><l>l'</l><r>le<s n="prn"/><s n="pro"/><s n="p3"/><s n="m"/><s n="sg"/></r></p></e>
