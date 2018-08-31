@@ -13417,11 +13417,9 @@
     <e lm="détroit de Gibraltar" a="eleka"> <i>détroit<b/>de<b/>Gibraltar</i><par n="Andorre__np"/></e>
     <e lm="Détroit de Messine" a="eleka">   <i>Détroit<b/>de<b/>Messine</i><par n="Andorre__np"/></e>
     <e lm="de trop" a="eleka" r="RL">       <i>de<b/>trop</i><par n="hier__adv"/></e>
-    <e lm="détruire" a="eleka">             <i>détru</i><par n="lu/i[]re__vblex" prm=""/></e>
-    <e lm="détruire">                       <i>détru</i><par n="lu/i[]re__vblex" prm=""/></e>
+    <e lm="détruire">                       <i>détrui</i><par n="condui/re__vblex" prm=""/></e>
     <e lm="dette">                          <i>dette</i><par n="abeille__n"/></e>
-    <e lm="deuil" a="webform" r="LR">       <i>deuil</i><par n="livre__n"/></e>
-    <e lm="deuil" a="webform" r="RL">       <i>deuil</i><par n="livre__n"/></e>
+    <e lm="deuil">                          <i>deuil</i><par n="livre__n"/></e>
     <e lm="Deusto" a="eleka">               <i>Deusto</i><par n="Andorre__np"/></e>
     <e lm="Deutsche" a="webform">           <i>Deutsche</i><par n="Carrefour__np"/></e>
     <e lm="Deutshe" a="eleka">              <i>Deutshe</i><par n="Carrefour__np"/></e>
