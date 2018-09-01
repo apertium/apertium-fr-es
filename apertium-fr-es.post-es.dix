@@ -75,7 +75,7 @@
     <pardef n="el">
    <!--   <e>
         <p>
-          <l><a/>el<b/></l> 
+          <l><a/>el<b/></l>
           <r>l<b/></r>
         </p>
       </e> -->
@@ -94,7 +94,7 @@
       </e>
     </pardef>
 
-   
+
     <pardef n="pr">
       <e>
         <p>
@@ -149,7 +149,7 @@
           <l>los<b/></l>
           <r>se<b/>los<b/></r>
         </p>
-      </e>      
+      </e>
     </pardef>
 
   </pardefs>
@@ -182,19 +182,19 @@
           <r>a</r>
         </p>
         <par n="el"/>
-      </e>      
+      </e>
       <e>
         <p>
           <l><a/>y<b/>i</l>
           <r>e<b/>i</r>
         </p>
-      </e>     
+      </e>
       <e>
         <p>
           <l><a/>y<b/>hie</l>
           <r>y<b/>hie</r>
         </p>
-      </e>    
+      </e>
       <e>
         <p>
           <l><a/>y<b/>hi</l>
@@ -225,7 +225,7 @@
       </e>
       <e>
         <par n="pr"/>
-        <i>acta</i>        
+        <i>acta</i>
         <par n="la"/>
       </e>
       <e>
