@@ -6367,11 +6367,8 @@
     <e a="webform"><p><l>Colette<s n="np"/></l>       <r>Colette<s n="np"/></r></p></e>
     <e a="eleka"><p><l>Colgante<s n="np"/></l>        <r>Colgante<s n="np"/></r></p></e>
     <e a="webform"><p><l>colin<s n="n"/><s n="m"/></l><r>merluza<s n="n"/><s n="f"/></r></p></e>
-    <e r="LR"><p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>paquete<s n="n"/><s n="m"/><s n="ND"/></r></p></e>
-    <e r="RL"><p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>cajetilla<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>cajetilla<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
-    <e r="RL"><p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>paquete<s n="n"/><s n="m"/><s n="pl"/></r></p></e>
-    <e r="RL"><p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>paquete<s n="n"/><s n="m"/><s n="sg"/></r></p></e>
+    <e>       <p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>cajetilla<s n="n"/><s n="f"/><s n="pl"/></r></p></e>
+    <e>       <p><l>colis<s n="n"/><s n="m"/><s n="sp"/></l><r>cajetilla<s n="n"/><s n="f"/><s n="sg"/></r></p></e>
     <e a="eleka"><p><l>Colisée<s n="np"/></l>         <r>Coliseo<s n="np"/></r></p></e>
     <e>       <p><l>Coll<s n="np"/></l>               <r>Coll<s n="np"/></r></p></e>
     <e>       <p><l>collaborateur<s n="n"/></l>       <r>colaborador<s n="n"/></r></p></e>
