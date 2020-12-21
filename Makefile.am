@@ -2,7 +2,6 @@
 ## Makefile for French--Spanish
 ###############################################################################
 
-VERSION=0.9.2
 LANG1=fr
 LANG2=es
 PREFIX1=$(LANG1)-$(LANG2)
@@ -42,14 +41,8 @@ TARGETS_COMMON = \
 	$(PREFVAR2)$(PREFIX2).autogen.bin \
 	$(PREFVAR2)$(PREFIX2).automorf.bin
 
-# Use this goal for creating .deps, otherwise make -j2 will give problems:
-.deps/.d:
-	if [ ! -d .deps ]; then mkdir .deps; fi
-	touch $@
-
-# Prevent the .d file from being removed automatically:
-.PRECIOUS: .deps/.d
-
+# This include defines goals for install-modes, .deps/.d and .mode files:
+@ap_include@
 
 ###############################################################################
 ## Transducers, disambiguation rules, transfer
@@ -234,16 +227,9 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 ###############################################################################
 
 apertium_fr_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
-apertium_modesdir=$(prefix)/share/apertium/modes/
-
-modes/$(PREFIX1).mode: modes.xml
-	apertium-validate-modes modes.xml
-	apertium-gen-modes modes.xml
-	cp *.mode modes/
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
-
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
 apertium_fr_es_DATA=$(TARGETS_COMMON) \
@@ -256,25 +242,14 @@ apertium_fr_es_DATA=$(TARGETS_COMMON) \
 	$(BASENAME).$(PREFIX2).t2x \
 	$(BASENAME).$(PREFIX2).t3x
 
-install-data-local:
-	mv modes modes.bak
-	apertium-gen-modes modes.xml apertium-$(PREFIX1)
-	rm -rf modes
-	mv modes.bak modes
-	test -d $(DESTDIR)$(apertium_modesdir) || mkdir $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFVAR1)$(PREFIX2).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX1).mode $(DESTDIR)$(apertium_modesdir)
-	$(INSTALL_DATA) $(PREFVAR2)$(PREFIX2).mode $(DESTDIR)$(apertium_modesdir)
-	rm $(PREFVAR1)$(PREFIX1).mode $(PREFVAR1)$(PREFIX2).mode $(PREFVAR2)$(PREFIX1).mode $(PREFVAR2)$(PREFIX2).mode 
-
+install-data-local: install-modes
 
 ###############################################################################
 ## Cleanup
 ###############################################################################
 
 CLEANFILES = $(TARGETS_COMMON)
-clean-local: 
+clean-local:
 	-rm -rf .deps modes
 
 ###############################################################################
