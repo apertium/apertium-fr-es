@@ -1,0 +1,2 @@
+[x5chfDASqsBh#0] ^Rel<SN><rel><adv>{^où<rel><adv>$}$ ^verb<SV><vbser><pri><p3><sg>{^être<vbser><pri><p3><sg>$}$ ^det_nom<SN><DET><f><sg>{^le<det><def><f><sg>$ ^gare<n><3><4>$}$^punt<sent>{^?<sent>$}$
+[/x5chfDASqsBh]

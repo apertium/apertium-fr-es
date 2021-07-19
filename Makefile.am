@@ -257,10 +257,4 @@ clean-local:
 ###############################################################################
 
 test: all
-	echo "Donde es la estación?" | apertium -d . es-fr | tee .test-mt
-	@echo "Où est la gare?" > .test-ref
-	@diff .test-ref .test-mt
-	echo "La plume de ma tante" | apertium -d . fr-es | tee .test-mt
-	@echo "La pluma de mi tía" > .test-ref
-	@diff .test-ref .test-mt
-	@rm .test-ref .test-mt
+	apertium-regtest test

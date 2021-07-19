@@ -1,0 +1,2 @@
+[74Pf5x8_TY2n#0] ^Det_nom<SN><f><sg>{^el<det><def><2><3>$ ^pluma<n><2><3>$}$ ^pr<PREP><de>{^de<pr>$}$ ^det_nom<SN><f><sg>{^mío<det><pos><mf><3>$ ^tía<n><2><3>$}$
+[/74Pf5x8_TY2n]

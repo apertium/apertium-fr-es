@@ -1,0 +1,10 @@
+{
+    "es-fr": {
+        "input": "es-fr-input.txt",
+        "mode": "es-fr"
+    },
+    "fr-es": {
+        "input": "fr-es-input.txt",
+        "mode": "fr-es"
+    }
+}

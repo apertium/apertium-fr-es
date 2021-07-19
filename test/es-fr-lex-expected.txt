@@ -1,0 +1,2 @@
+[x5chfDASqsBh#0] ^Donde<rel><adv>/Où<rel><adv>$ ^ser<vbser><pri><p3><sg>/être<vbser><pri><p3><sg>$ ^el<det><def><f><sg>/le<det><def><f><sg>$ ^estación<n><f><sg>/gare<n><f><sg>$^?<sent>/?<sent>$
+[/x5chfDASqsBh]
