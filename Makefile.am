@@ -85,6 +85,7 @@ $(PREFVAR1)$(PREFIX1).autobil.bin: .deps/$(PREFVAR1)$(PREFIX1).dix
 	lt-comp lr $< $@
 
 $(PREFIX1).autolex.bin: $(BASENAME).$(PREFIX1).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFVAR1)$(PREFIX1).autogen.bin: .deps/$(PREFVAR1)$(LANG2).dix
@@ -104,6 +105,7 @@ $(PREFVAR2)$(PREFIX1).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
 	lt-comp lr $< $@
 
 $(PREFIX1).$(PREFVAR2x).autolex.bin: $(BASENAME).$(PREFIX1).$(PREFVAR2x).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFVAR2)$(PREFIX1).autogen.bin: .deps/$(PREFVAR2)$(LANG2).dix
@@ -123,6 +125,7 @@ $(PREFVAR1)$(PREFIX2).autobil.bin: .deps/$(PREFVAR1)$(PREFIX1).dix
 	lt-comp rl $< $@
 
 $(PREFIX2).autolex.bin: $(BASENAME).$(PREFIX2).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFVAR1)$(PREFIX2).autogen.bin: .deps/$(PREFVAR1)$(LANG1).dix
@@ -142,6 +145,7 @@ $(PREFVAR2)$(PREFIX2).autobil.bin: .deps/$(PREFVAR2)$(PREFIX1).dix
 	lt-comp rl $< $@
 
 $(PREFIX2).$(PREFVAR2x).autolex.bin: $(BASENAME).$(PREFIX2).$(PREFVAR2x).lrx
+	apertium-validate-lrx $<
 	lrx-comp $< $@
 
 $(PREFVAR2)$(PREFIX2).autogen.bin: .deps/$(PREFVAR2)$(LANG1).dix
