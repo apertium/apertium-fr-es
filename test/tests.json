@@ -1,10 +1,10 @@
 {
-    "es-fr": {
-        "input": "es-fr-input.txt",
-        "mode": "es-fr"
+    "spa-fra": {
+        "input": "spa-fra-input.txt",
+        "mode": "spa-fra"
     },
-    "fr-es": {
-        "input": "fr-es-input.txt",
-        "mode": "fr-es"
+    "fra-spa": {
+        "input": "fra-spa-input.txt",
+        "mode": "fra-spa"
     }
 }

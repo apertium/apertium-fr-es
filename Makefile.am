@@ -2,8 +2,8 @@
 ## Makefile for French--Spanish
 ###############################################################################
 
-LANG1=fr
-LANG2=es
+LANG1=fra
+LANG2=spa
 PREFIX1=$(LANG1)-$(LANG2)
 PREFIX2=$(LANG2)-$(LANG1)
 
@@ -215,7 +215,7 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
            $(BASENAME).$(LANG2).dix $(BASENAME).$(LANG1).tsx \
            $(BASENAME).$(LANG2).tsx  \
            $(PREFIX1).prob $(PREFIX2).prob \
-           buscaPar.xsl principal.xsl apertium-fr-es.fr.metadix \
+           buscaPar.xsl principal.xsl apertium-fra-spa.fra.metadix \
            $(PREFIX1)-supervised.make $(PREFIX1)-unsupervised.make \
            $(PREFIX2)-supervised.make $(PREFIX2)-unsupervised.make \
            $(LANG1)-tagger-data/README $(LANG2)-tagger-data/README \
@@ -230,13 +230,13 @@ EXTRA_DIST=$(BASENAME).$(PREFIX1).dix \
 ## Installation
 ###############################################################################
 
-apertium_fr_esdir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
+apertium_fra_spadir=$(prefix)/share/apertium/apertium-$(PREFIX1)/
 
 # All modes are created by the same goal, listing several will just give problems with make -j2
 noinst_DATA=modes/$(PREFIX1).mode
 
 # Files which should be installed to $(prefix)/share/apertium/$(BASENAME)/:
-apertium_fr_es_DATA=$(TARGETS_COMMON) \
+apertium_fra_spa_DATA=$(TARGETS_COMMON) \
 	$(PREFIX1).prob \
 	$(PREFIX2).prob \
 	$(BASENAME).$(PREFIX1).t1x \
