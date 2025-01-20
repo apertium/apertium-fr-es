@@ -1,8 +1,8 @@
 
 Mikel (2007.04.24)
-* Necesitamos una regla para detectar el indefinido español y producir un
-passé composé francés
-* La regla es-fr ir+a+VERB --> aller+VERB de t1x debería generar un chunk
-para que reglas como haber+VERB_MOV-->être+VERB_MOV funcionaran también con 
+* Necesitamos una regla para detectar el indefinido espaï¿½ol y producir un
+passï¿½ composï¿½ francï¿½s
+* La regla spa-fra ir+a+VERB --> aller+VERB de t1x deberï¿½a generar un chunk
+para que reglas como haber+VERB_MOV-->ï¿½tre+VERB_MOV funcionaran tambiï¿½n con 
 aller+VERB (buen ejemplo de regla Apertium 2).
-* Cuando en español se pone el pronombre del sujeto no se debe repetir
+* Cuando en espaï¿½ol se pone el pronombre del sujeto no se debe repetir

@@ -1,460 +1,460 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <modes>
-  <mode name="fr-es" install="yes">
+  <mode name="fra-spa" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
+        <file name="fra-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="fr-es.autolex.bin"/>
+        <file name="fra-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.fr-es.t2x"/>
-        <file name="fr-es.t2x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t2x"/>
+        <file name="fra-spa.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.fr-es.t3x"/>
-        <file name="fr-es.t3x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t3x"/>
+        <file name="fra-spa.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="fr-es.autogen.bin"/>
+        <file name="fra-spa.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="fr-es.autopgen.bin"/>
+        <file name="fra-spa.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-anmor">
+  <mode name="fra-spa-anmor">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-tagger">
+  <mode name="fra-spa-tagger">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-pretransfer">
+  <mode name="fra-spa-pretransfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-biltrans">
+  <mode name="fra-spa-biltrans">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="fr-es-chunker">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
+        <file name="fra-spa.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="fra-spa-chunker">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="fra-spa.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="fra-spa.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="fra-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="fr-es.autolex.bin"/>
+        <file name="fra-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
     </pipeline>
   </mode>
   
-  <mode name="fr-es-interchunk">
+  <mode name="fra-spa-interchunk">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
+        <file name="fra-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="fr-es.autolex.bin"/>
+        <file name="fra-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.fr-es.t2x"/>
-        <file name="fr-es.t2x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t2x"/>
+        <file name="fra-spa.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-postchunk">
+  <mode name="fra-spa-postchunk">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
+        <file name="fra-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="fr-es.autolex.bin"/>
+        <file name="fra-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.fr-es.t2x"/>
-        <file name="fr-es.t2x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t2x"/>
+        <file name="fra-spa.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.fr-es.t3x"/>
-        <file name="fr-es.t3x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t3x"/>
+        <file name="fra-spa.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="fr-es-generador">
+  <mode name="fra-spa-generador">
     <pipeline>
       <program name="lt-proc">
-        <file name="fr-es.automorf.bin"/>
+        <file name="fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="fr-es.autobil.bin"/>
+        <file name="fra-spa.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="fr-es.autolex.bin"/>
+        <file name="fra-spa.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.fr-es.t2x"/>
-        <file name="fr-es.t2x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t2x"/>
+        <file name="fra-spa.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.fr-es.t3x"/>
-        <file name="fr-es.t3x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t3x"/>
+        <file name="fra-spa.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="fr-es.autogen.bin"/>
+        <file name="fra-spa.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
   
 
   
-  <mode name="es-fr" install="yes">
+  <mode name="spa-fra" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
+        <file name="spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.autolex.bin"/>
+        <file name="spa-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.es-fr.t2x"/>
-        <file name="es-fr.t2x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t2x"/>
+        <file name="spa-fra.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.es-fr.t3x"/>
-        <file name="es-fr.t3x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t3x"/>
+        <file name="spa-fra.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-fr.autogen.bin"/>
+        <file name="spa-fra.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="es-fr.autopgen.bin"/>
+        <file name="spa-fra.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-anmor">
+  <mode name="spa-fra-anmor">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-tagger">
+  <mode name="spa-fra-tagger">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-pretransfer">
+  <mode name="spa-fra-pretransfer">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-biltrans">
+  <mode name="spa-fra-biltrans">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
-      </program>
-      <program name="apertium-pretransfer"/>
-      <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
-      </program>
-    </pipeline>
-  </mode>
-
-
-  <mode name="es-fr-chunker">
-    <pipeline>
-      <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
-      </program>
-      <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
+        <file name="spa-fra.autobil.bin"/>
+      </program>
+    </pipeline>
+  </mode>
+
+
+  <mode name="spa-fra-chunker">
+    <pipeline>
+      <program name="lt-proc">
+        <file name="spa-fra.automorf.bin"/>
+      </program>
+      <program name="apertium-tagger -g $2">
+        <file name="spa-fra.prob"/>
+      </program>
+      <program name="apertium-pretransfer"/>
+      <program name="lt-proc -b">
+        <file name="spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.autolex.bin"/>
+        <file name="spa-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
     </pipeline>
   </mode>                
                                           
-  <mode name="es-fr-interchunk">
+  <mode name="spa-fra-interchunk">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
+        <file name="spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.autolex.bin"/>
+        <file name="spa-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.es-fr.t2x"/>
-        <file name="es-fr.t2x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t2x"/>
+        <file name="spa-fra.t2x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-postchunk">
+  <mode name="spa-fra-postchunk">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
+        <file name="spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.autolex.bin"/>
+        <file name="spa-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.es-fr.t2x"/>
-        <file name="es-fr.t2x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t2x"/>
+        <file name="spa-fra.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.es-fr.t3x"/>
-        <file name="es-fr.t3x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t3x"/>
+        <file name="spa-fra.t3x.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="es-fr-generador">
+  <mode name="spa-fra-generador">
     <pipeline>
       <program name="lt-proc">
-        <file name="es-fr.automorf.bin"/>
+        <file name="spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="es-fr.autobil.bin"/>
+        <file name="spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.autolex.bin"/>
+        <file name="spa-fra.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.es-fr.t2x"/>
-        <file name="es-fr.t2x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t2x"/>
+        <file name="spa-fra.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.es-fr.t3x"/>
-        <file name="es-fr.t3x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t3x"/>
+        <file name="spa-fra.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="es-fr.autogen.bin"/>
+        <file name="spa-fra.autogen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="eco-fr-es" install="yes">
+  <mode name="eco-fra-spa" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="eco-fr-es.automorf.bin"/>
+        <file name="eco-fra-spa.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="fr-es.prob"/>
+        <file name="fra-spa.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="eco-fr-es.autobil.bin"/>
+        <file name="eco-fra-spa.autobil.bin"/>
       </program>
       <program name="apertium-transfer -b">
-         <file name="apertium-fr-es.fr-es.t1x"/>
-        <file name="fr-es.t1x.bin"/>
+         <file name="apertium-fra-spa.fra-spa.t1x"/>
+        <file name="fra-spa.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.fr-es.t2x"/>
-        <file name="fr-es.t2x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t2x"/>
+        <file name="fra-spa.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.fr-es.t3x"/>
-        <file name="fr-es.t3x.bin"/>
+        <file name="apertium-fra-spa.fra-spa.t3x"/>
+        <file name="fra-spa.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="eco-fr-es.autogen.bin"/>
+        <file name="eco-fra-spa.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="fr-es.autopgen.bin"/>
+        <file name="fra-spa.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>
 
-  <mode name="eco-es-fr" install="yes">
+  <mode name="eco-spa-fra" install="yes">
     <pipeline>
       <program name="lt-proc">
-        <file name="eco-es-fr.automorf.bin"/>
+        <file name="eco-spa-fra.automorf.bin"/>
       </program>
       <program name="apertium-tagger -g $2">
-        <file name="es-fr.prob"/>
+        <file name="spa-fra.prob"/>
       </program>
       <program name="apertium-pretransfer"/>
       <program name="lt-proc -b">
-        <file name="eco-es-fr.autobil.bin"/>
+        <file name="eco-spa-fra.autobil.bin"/>
       </program>
       <program name="lrx-proc -m">
-        <file name="es-fr.eco.autolex.bin"/>
+        <file name="spa-fra.eco.autolex.bin"/>
       </program>
       <program name="apertium-transfer -b">
-        <file name="apertium-fr-es.es-fr.t1x"/>
-        <file name="es-fr.t1x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t1x"/>
+        <file name="spa-fra.t1x.bin"/>
       </program>
       <program name="apertium-interchunk">
-        <file name="apertium-fr-es.es-fr.t2x"/>
-        <file name="es-fr.t2x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t2x"/>
+        <file name="spa-fra.t2x.bin"/>
       </program>
       <program name="apertium-postchunk">
-        <file name="apertium-fr-es.es-fr.t3x"/>
-        <file name="es-fr.t3x.bin"/>
+        <file name="apertium-fra-spa.spa-fra.t3x"/>
+        <file name="spa-fra.t3x.bin"/>
       </program>
       <program name="lt-proc $1">
-        <file name="eco-es-fr.autogen.bin"/>
+        <file name="eco-spa-fra.autogen.bin"/>
       </program>
       <program name="lt-proc -p">
-        <file name="es-fr.autopgen.bin"/>
+        <file name="spa-fra.autopgen.bin"/>
       </program>
     </pipeline>
   </mode>

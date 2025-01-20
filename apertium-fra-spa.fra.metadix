@@ -15513,7 +15513,7 @@
     <e lm="facilité">                       <i>facilité</i><par n="abeille__n"/></e>
     <e lm="faciliter">                      <i>facilit</i><par n="abaiss/er__vblex"/></e>
     <e lm="façon">                          <i>façon</i><par n="abeille__n"/></e>
-    <e lm="facteur" a="webform" c="poner facteur cartero de es a fr"><i>facteur</i><par n="livre__n"/></e>
+    <e lm="facteur" a="webform" c="poner facteur cartero de spa a fra"><i>facteur</i><par n="livre__n"/></e>
     <e lm="facteur">                        <i>facteur</i><par n="livre__n"/></e>
     <e lm="faction" a="webform">            <i>faction</i><par n="abeille__n"/></e>
     <e lm="facturation" a="webform">        <i>facturation</i><par n="abeille__n"/></e>
@@ -19527,7 +19527,7 @@
     <e lm="locataire" a="webform">          <i>locataire</i><par n="académique__adj"/></e>
     <e lm="locataire" a="webform">          <i>locataire</i><par n="artiste__n"/></e>
     <e lm="locatif" a="eleka">              <i>locati</i><par n="affirmati/f__adj"/></e>
-    <e lm="location" a="webform" c="posar loyer de fr a es"><i>location</i><par n="abeille__n"/></e>
+    <e lm="location" a="webform" c="posar loyer de fra a spa"><i>location</i><par n="abeille__n"/></e>
     <e lm="LOCE">                           <i>LOCE</i><par n="Carrefour__np"/></e>
     <e lm="loch">                           <i>loch</i><par n="livre__n"/></e>
     <e lm="locomotion" a="eleka">           <i>locomotion</i><par n="abeille__n"/></e>

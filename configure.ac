@@ -1,6 +1,6 @@
 AC_PREREQ(2.52)
 
-AC_INIT([Apertium French-Spanish], [0.9.4], [apertium-stuff@lists.sourceforge.net], [apertium-fr-es])
+AC_INIT([Apertium French-Spanish], [0.9.4], [apertium-stuff@lists.sourceforge.net], [apertium-fra-spa])
 AM_INIT_AUTOMAKE
 AC_PROG_AWK
 

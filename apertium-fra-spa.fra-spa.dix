@@ -15914,7 +15914,7 @@
     <e r="LR" a="eleka"><p><l>locatif<s n="adj"/><s n="m"/><s n="pl"/></l><r>para<b/>alquilar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="LR" a="eleka"><p><l>locatif<s n="adj"/><s n="m"/><s n="sg"/></l><r>para<b/>alquilar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
     <e r="RL" a="eleka"><p><l>locatif<s n="adj"/><s n="GD"/><s n="ND"/></l><r>para<b/>alquilar<s n="adj"/><s n="mf"/><s n="sp"/></r></p></e>
-    <e a="webform" c="posar loyer de fr a es"><p><l>location<s n="n"/><s n="f"/></l><r>alquiler<s n="n"/><s n="m"/></r></p></e>
+    <e a="webform" c="posar loyer de fra a spa"><p><l>location<s n="n"/><s n="f"/></l><r>alquiler<s n="n"/><s n="m"/></r></p></e>
     <e r="RL" a="eleka"><p><l>location<s n="n"/></l>  <r>arrendamiento<s n="n"/></r></p></e>
     <e>       <p><l>LOCE<s n="np"/><s n="al"/></l>    <r>LOCE<s n="np"/><s n="al"/></r></p></e>
     <e r="LR"><p><l>loch<s n="n"/></l>                <r>lago<s n="n"/></r></p></e>

@@ -1,5 +1,5 @@
 echo "==French->Spanish===========================";
-sh inconsistency.sh fr-es > /tmp/fr-es.testvoc; sh inconsistency-summary.sh /tmp/fr-es.testvoc fr-es
+sh inconsistency.sh fra-spa > /tmp/fra-spa.testvoc; sh inconsistency-summary.sh /tmp/fra-spa.testvoc fra-spa
 echo ""
 echo "==Spanish->French===========================";
-sh inconsistency.sh es-fr > /tmp/es-fr.testvoc; sh inconsistency-summary.sh /tmp/es-fr.testvoc es-fr
+sh inconsistency.sh spa-fra > /tmp/spa-fra.testvoc; sh inconsistency-summary.sh /tmp/spa-fra.testvoc spa-fra
